@@ -1,0 +1,23 @@
+.memberlevel {
+    margin-left: 200px;
+    padding-top: 50px;
+    text-align: center;
+    flex-grow: 1;
+    padding: 20px 20px 20px 0;
+
+    h2 {
+        text-align: center;
+    }
+
+    .memberlevel_btn {
+        display: flex;
+        justify-content: end;
+    }
+
+    .level_pay {
+        input {
+            width: 34.5%;
+        }
+
+    }
+}

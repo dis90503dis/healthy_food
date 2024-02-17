@@ -1,0 +1,56 @@
+.order {
+    display: flex;
+
+    // height: 100vh;
+    .orderRight {
+        flex-grow: 1;
+        /* 剩餘空間填滿主內容 */
+        padding: 20px 20px 20px 0;
+        margin-left: 200px;
+
+        h1 {
+            text-align: center;
+
+        }
+
+        .search {
+            height: 37px;
+            position: absolute;
+            right: 30px;
+            top: 30px;
+            background: none;
+            padding: 5px;
+            border: 1px solid $primary;
+            border-radius: 10px;
+        }
+
+        // tr {
+        //     // vertical-align: center;
+
+        // }
+
+        .ordersee {
+            display: block;
+            margin-top: 5px;
+            // margin: auto;
+            width: 87px;
+            font-size: 14px;
+        }
+
+
+
+    }
+
+    .orderRight .pagination {
+        position: fixed;
+        bottom: 5px;
+        right: 20px;
+
+        .page-link {
+            border-radius: 50%;
+        }
+    }
+    table th,table td{
+        background: none!important;
+    }
+}
